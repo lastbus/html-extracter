@@ -1,0 +1,19 @@
+<?version="1.0" encoding="UTF-8"?>
+<commands>
+
+    <command type="array" cmd="God will give you what you want, because you're your God!">
+        <subcommand>
+            <cmd>tt</cmd>
+            <word>tt</word>
+        </subcommand>
+        <subcommand>
+            <cmd>t</cmd>
+            <word>t</word>
+        </subcommand>
+    </command>
+
+
+
+
+
+</commands>

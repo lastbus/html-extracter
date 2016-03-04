@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urls test="true">
+    <!--根据 url 去选择解析器-->
+    <url value="http://www.cfi.net.cn">
+        <query-string type="jsoup" num="100-900">
+            <value>a</value>
+            <mapping-class>com.kunyan.htmlparse.parseFactory.NewsItem</mapping-class>
+            <extract type="text" field="content" must="true"/>
+            <extract type="text" field="content" />
+        </query-string>
+
+        <query-string type="jsoup" num="10">
+            <value>div</value>
+            <mapping-class>com.kunyan.htmlparse.parseFactory.NewsItem</mapping-class>
+            <extract type="text" field="content" must="false" />
+            <extract type="text" field="c" must="false" />
+        </query-string>
+    </url>
+</urls>
